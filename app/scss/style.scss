@@ -385,3 +385,37 @@
     }
     }
 }
+
+// TUTORIALS
+
+.tutorials{
+    min-height: 655px;
+    padding: 70px 0px 120px;
+    &__title{
+        margin-bottom: 50px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.tutorials__item{
+    max-width: 370px;
+    width: 100%;
+    &-img{
+        // margin-bottom: 40px;
+        min-height: 270px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &-title{
+        font-size: 24px;
+        @include f700;
+        color: $bg;
+        text-align: center;
+        background-color: #f8f8f8;
+        padding: 30px 10px;
+    }
+}
